@@ -14,9 +14,122 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
 
 <style type="text/css">
- .Index-h1_2 {
-    font-size: 35px;
-    color: BlueViolet
+ .Index-div_1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(250, 250, 250, 1);
+    border-color: rgba(82, 150, 233, 1)
+}
+.Index-div_2 {
+    height: 100%;
+    width: 300px;
+    padding: 14px
+}
+.Index-div_5 {
+    padding: 17px;
+    border-color: rgba(230, 230, 230, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8px
+}
+
+.Form-div_7 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: Helvetica;
+    padding: 33px
+}
+.Form-h1_2 {
+    font-size: 46px;
+    text-align: center
+}
+.Form-p_1 {
+    text-align: center;
+    color: rgba(153, 153, 153, 1);
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
+    margin-top: 6px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 18px
+}
+.Form-button_1 {
+    font-size: 14px;
+    background-color: rgba(82, 150, 233, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: transparent;
+    font-weight: 500;
+    margin-top: 18px;
+    border-radius: 4px;
+    padding: 4px
+}
+.Form-i_21 {
+    margin-right: 7px;
+    font-size: 19px
+}
+.Form-div_23 {
+    margin-top: 8px
+}
+.Form-div_12 {
+    margin-bottom: 5px;
+    margin: 0px;
+    margin-top: 13px;
+    font-size: 12px
+}
+.Form-p_2 {
+    font-size: 13px;
+    font-weight: 400
+}
+.LineText-div_34 {
+    flex-direction: row;
+    display: flex;
+    align-items: center
+}
+.LineText-span_1 {
+    margin: 16px;
+    font-weight: 600;
+    color: rgba(153, 153, 153, 1)
+}
+
+.TextField-div_10 {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(178, 178, 178, 1);
+    background-color: rgba(250, 250, 250, 1);
+    border-radius: 3px;
+    color: rgb(219, 65, 70);
+    align-items: stretch;
+    display: flex;
+    flex-direction: row
+}
+.TextField-input_4 {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    color: rgba(181, 212, 237, 1);
+    flex: 1
+}
+
+.TextField-i_33 {
+    border-style: solid;
+    border-radius: 52px;
+    width: 20px;
+    height: 20px;
+    border-width: 2px;
+    justify-content: center;
+    display: flex;
+    align-items: center
 }
 </style>
  </head><body><script type="text/javascript">
@@ -34,12 +147,265 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 Index.prototype.render = function() {
     var props = this.props;
     var state = this.state;
-    return React.createElement("h1", {
-            "data-tid": "Aivvzpqfjpi",
-            className: "Index-h1_2"
+    return React.createElement("div", {
+            "data-tid": "Aj9hrs6loyii",
+            className: "Index-div_1"
         },
-        "popopopo"
+        React.createElement("div", {
+                "data-tid": "Aczn8dnt8v1m",
+                className: "Index-div_2"
+            },
+            React.createElement(Phone, {
+                "data-tid": "Axcxnsgo0qod"
+            })
+        ),
+        React.createElement("div", {
+                "data-tid": "A0ezvcwbyhm55",
+                className: "Index-div_2"
+            },
+            React.createElement("div", {
+                    "data-tid": "Aj6fevtzj8kb",
+                    className: "Index-div_5"
+                },
+                React.createElement(Form, {
+                    "data-tid": "A97kw3u5iiew"
+                })
+            ),
+            React.createElement("div", {
+                "data-tid": "At2nj9paj9j",
+                className: "Index-div_5"
+            }),
+            React.createElement("div", {
+                    "data-tid": "Af7z5d962xm8",
+                    className: "Index-div_6"
+                },
+                React.createElement(Apps, {
+                    "data-tid": "A1x4uc7ooskc"
+                })
+            )
+        )
     )
+}
+
+
+var Phone = React.createClass({
+    getInitialState: function() {
+        return {}
+    },
+    render: function() {
+        return null
+    }
+});
+Phone.prototype.render = function() {
+    var props = this.props;
+    var state = this.state;
+    return React.createElement("undefined", {
+        "data-tid": "Aa1j7s5uvqpj"
+    })
+}
+
+
+var Form = React.createClass({
+    getInitialState: function() {
+        return {}
+    },
+    render: function() {
+        return null
+    }
+});
+Form.prototype.render = function() {
+    var props = this.props;
+    var state = this.state;
+    return React.createElement("div", {
+            "data-tid": "Ayghk8x0yvq",
+            className: "Form-div_7"
+        },
+        React.createElement("h1", {
+                "data-tid": "Agg7wu2cc1sc",
+                style: {
+                    fontFamily: 'Oleo Script'
+                },
+                className: "Form-h1_2"
+            },
+            "Instagram"
+        ),
+        React.createElement("p", {
+                "data-tid": "Armawfdeg8rk",
+                className: "Form-p_1"
+            },
+            "Sign up to see photos and videos from your friends."
+        ),
+        React.createElement("button", {
+                "data-tid": "Algtyz52wieg",
+                className: "Form-button_1"
+            },
+            React.createElement("i", {
+                "data-tid": "Azlfhi1lhudh",
+                className: " Form-i_21" + (" fa fa-facebook-official") + ''
+            }),
+            "Log in with Facebook"
+        ),
+        React.createElement("div", {
+                "data-tid": "A16tlil6ixo9",
+                className: "Form-div_23"
+            },
+            React.createElement(LineText, {
+                "data-tid": "Ai6kt7oxbtqo",
+                text: "OR"
+            })
+        ),
+        React.createElement("div", {
+                "data-tid": "Ahbrdbsh9evg",
+                className: "Form-div_12"
+            },
+            React.createElement(TextField, {
+                "data-tid": "Aadguylxhkv",
+                name: "Mobile Number or Email"
+            })
+        ),
+        React.createElement("div", {
+                "data-tid": "A9m9am1m9on",
+                className: "Form-div_12",
+                name: "Full Name"
+            },
+            React.createElement(TextField, {
+                "data-tid": "Aadguylxhkv",
+                name: "Full Name"
+            })
+        ),
+        React.createElement("div", {
+                "data-tid": "Amh2dgqvkrsc",
+                className: "Form-div_12"
+            },
+            React.createElement(TextField, {
+                "data-tid": "Aadguylxhkv",
+                name: "Username"
+            })
+        ),
+        React.createElement("div", {
+                "data-tid": "A7xpeq0pkxax",
+                className: "Form-div_12"
+            },
+            React.createElement(TextField, {
+                "data-tid": "Aadguylxhkv",
+                name: "Password"
+            })
+        ),
+        React.createElement("button", {
+                "data-tid": "A3cp55wmb8ai",
+                className: "Form-button_1"
+            },
+            "Sign up"
+        ),
+        React.createElement("p", {
+                "data-tid": "A4bjbrya4hqe",
+                className: "Form-p_1 Form-p_2"
+            },
+            "By signing up, you agree to our ", React.createElement("strong", {
+                    "data-tid": "Apgwwa4hlt3"
+                },
+                "Terms & Privacy Policy."
+            )
+        )
+    )
+}
+
+
+var Apps = React.createClass({
+    getInitialState: function() {
+        return {}
+    },
+    render: function() {
+        return null
+    }
+});
+Apps.prototype.render = function() {
+    var props = this.props;
+    var state = this.state;
+    return React.createElement("undefined", {
+        "data-tid": "Aa1j7s5uvqpj"
+    })
+}
+
+
+var LineText = React.createClass({
+    getInitialState: function() {
+        return {}
+    },
+    render: function() {
+        return null
+    }
+});
+LineText.prototype.render = function() {
+    var props = this.props;
+    var state = this.state;
+    return React.createElement("div", {
+            "data-tid": "A14onqft4p2h",
+            className: "LineText-div_34"
+        },
+        React.createElement("hr", {
+            "data-tid": "Ac5mul2g070n",
+            style: {
+                flex: '1'
+            }
+        }),
+        React.createElement("span", {
+                "data-tid": "Ablqr121msyj",
+                className: "LineText-span_1"
+            },
+            props.text
+        ),
+        React.createElement("hr", {
+            "data-tid": "Al2scbkb6u5j",
+            style: {
+                flex: '1'
+            }
+        })
+    )
+}
+
+
+var TextField = React.createClass({
+    getInitialState: function() {
+        return {}
+    },
+    render: function() {
+        return null
+    }
+});
+TextField.prototype.render = function() {
+    var props = this.props;
+    var state = this.state;
+    return React.createElement("div", {
+            "data-tid": "A5x9ii84pohd",
+            className: "TextField-div_10"
+        },
+        React.createElement("input", {
+            "data-tid": "A4820qmjg0c1",
+            onChange: this.textChange.bind(this),
+            className: "TextField-input_4",
+            type: 'text',
+            placeholder: props.name
+        }),
+        state.err ?
+        React.createElement("i", {
+            "data-tid": "A403jch0oyhp",
+            onChange: this.textChange.bind(this),
+            className: " TextField-i_33" + (" fa fa-close") + ''
+        }) :
+        null
+    )
+}
+TextField.prototype.textChange = function(e) {
+    try {
+        this.setState({
+            err: e.target.value.length < 3
+        })
+    } catch (e) {
+        console.log("=========================")
+        console.log('textChange')
+        console.log(e)
+    }
 }
         ReactDOM.render(
             React.createElement(Index,{} ),
